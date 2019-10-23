@@ -19,7 +19,7 @@ if(isset($_POST['login'])){
             echo "Vous n'êtes pas enregistré dans nos bases de données. Veuillez vous inscrire s'il vous plaît.";
         }
     } else {
-        echo "Tous les champs doivent être remplis.";
+        echo "Les champs ne sont pas remplis.";
     }
 } else { 
     echo "Erreur";

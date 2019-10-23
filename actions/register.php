@@ -25,10 +25,10 @@ if(isset($_POST['register'])) {
                 echo "Vous avez déjà un compte. Veuillez vous connectez s'il vous plaît.";
             }
         } else {
-            echo "Vos 2 mots de passe ne correspondent pas.";
+            echo "Les mots de passe ne se correspondent pas.";
         }
     } else {
-        echo "Tous les champs doivent être remplis.";
+        echo "Les champs ne sont pas remplis.";
     }
 } else {
     echo "Erreur";
